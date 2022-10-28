@@ -4,8 +4,8 @@ const substituaX = (nome) => {
     const frase = "Tryber X aqui!";
     let fraseSeparada = frase.split(" ");
     for (let i = 0; i < fraseSeparada.length; i++){
-        fraseSeparada[i] == "X" ? fraseSeparada[i] = nome : fraseSeparada[i] = fraseSeparada[i]
-    }
+        fraseSeparada[i] == "X" && fraseSeparada[i] = nome 
+        }
     return fraseSeparada.join(" ")
 }
 
