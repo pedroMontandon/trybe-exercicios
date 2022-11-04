@@ -1,0 +1,10 @@
+
+#backColorUl{
+    list-style: none;
+    text-align: center;
+}
+
+.backgroundColorButton {
+    padding: 3px 10px;
+    width: 70px;
+}
