@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Viagem</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+    <form action="">
+        <section>
+            <label for="name">Nome Completo: </label>
+            <input type="text" name="name" id="name" placeholder="Ex.: José Antunes" maxlength="40" minlength="10">
+            <br><br/>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Ex:joseantunes@email.com" min="10" max="50">
+        </section>
+        <section>
+            <h3>Destino Preferido: </h3>
+            <input type="radio" name="viagem" id="cidade">
+            <label for="cidade">Cidade</label>
+            <input type="radio" name="viagem" id="campo">
+            <label for="campo">Campo</label>
+            <input type="radio" name="viagem" id="praia" value="praia">
+            <label for="praia">Praia</label>
+            <input type="radio" name="viagem" id="montanha" value="montanha">
+            <label for="montanha">Montanha</label>
+        </section>
+        <section>
+            <h3>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</h3>
+            <textarea name="textoMotivacao" id="textoMotivacao" cols="40" rows="15"></textarea>
+        </section>
+        <section>
+            <h3>Qual a melhor data para realizar sua viagem?</h3>
+            <input type="date">
+        </section>
+        <section>
+            <label for="ofertaTrybe"></label>
+            <input type="checkbox" id="ofertaTrybe"> Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <input type="checkbox" required> Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+        </section>
+        <section>
+            <button type="submit" id="submitButton">Enviar Informações</button>
+            <button type="reset">Limpar Todos os Campos</button>
+        </section>
+    </form>
+    </main>
+    
+</body>
+</html>
